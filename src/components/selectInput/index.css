@@ -1,0 +1,42 @@
+.selectContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+}
+
+.selectDiv {
+    display: flex;
+    gap: 10px;
+}
+
+.selectDiv>label {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.selectDiv>select {
+    border: 1px solid #dad4d4;
+    border-radius: 5px;
+    padding: 5px 16px;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.selectContainer>button {
+    width: 311px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 1px solid #2697FE;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    color: #2697FE;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+}

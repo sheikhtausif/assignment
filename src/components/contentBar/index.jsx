@@ -4,10 +4,8 @@ import "./index.css"
 
 const ContentBar = () => {
     const [active, setActive] = React.useState({ one: true, two: false, three: false, four: false })
-    console.log('active:', active)
 
     const handleClick = (text) => {
-        console.log('text:', text)
         setActive({ one: false, two: false, three: false, four: false })
         setActive(prevState => ({ ...prevState, [text]: true }))
     }
