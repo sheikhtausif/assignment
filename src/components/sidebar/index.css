@@ -1,0 +1,43 @@
+.sidebarContainer {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    background: #FFFFFF;
+    padding: 50px 16px;
+    /* border: 1px solid red; */
+}
+
+.sidebarContainer>svg:first-child {
+    width: 50px;
+    height: 50px;
+}
+
+.sidebarContainer>svg:nth-child(n+2) {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.sidebarContainer>svg:nth-child(5) {
+    width: 44px;
+    height: 44px;
+    background: #2697FE;
+    padding: 12px;
+    border-radius: 4px;
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+}
+
+/* .sidebarContainer>svg:nth-child(n+2) {
+    width: 44px;
+    height: 44px;
+    background: #2697FE;
+    padding: 12px;
+    border-radius: 4px;
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+    filter: invert(100%);
+} */

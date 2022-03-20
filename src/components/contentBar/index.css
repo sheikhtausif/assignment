@@ -1,0 +1,26 @@
+.contentBarContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 22px;
+    border-bottom: 1px solid #dad4d4;
+}
+
+.contentBarContainer>svg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.contentBarContainer>p {
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    cursor: pointer;
+    padding: 8px 8px 15px 8px;
+}
+
+.active {
+    border-bottom: 3px solid #2697FE;
+}
